@@ -7,17 +7,18 @@
   ],
   "dev_command": "pnpm run dev",
   "env_vars": {
-    "DATABASE_URL": "mysql://w5tfn2ihakixzVH.root:6VBSlnv2uT8mHEVa404A@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/7kU4FNSFfnFq4WNxfPofUA?ssl={\"rejectUnauthorized\":true}"
+    "DATABASE_URL": "mysql://w5tfn2ihakixzVH.root:6VBSlnv2uT8mHEVa404A@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/7kU4FNSFfnFq4WNxfPofUA?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://w5tfn2ihakixzVH.root:6VBSlnv2uT8mHEVa404A@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/7kU4FNSFfnFq4WNxfPofUA?ssl={\"rejectUnauthorized\":true}"
   },
   "experiments": [
     "no_db_push"
   ],
   "git_remote": {
     "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663660256539/7kU4FNSFfnFq4WNxfPofUA",
-    "access_key_id": "ASIAZV3A2ECZNCXKZYU6",
-    "secret_access_key": "6nLCiXVZIbmZybW9oIT1N/GDyuzzbCZIH20JXNxC",
-    "session_token": "IQoJb3JpZ2luX2VjEJb//////////wEaCXVzLWVhc3QtMSJHMEUCIC5GWy6EDx8+Ol/ElrnWWT5cDFSkqXBPXQ8exzqmrvFpAiEAwk3INo6EiU8y6gY9/o7HDAfL0WRWOnqs8uJJASgoCCsq9gMIXxAEGgw2NjUzODYwOTg4NjYiDLAElJvzG9xUnVBBDSrTA+hkNa3OFxYzEYcoBc1Wi50l8gjA2vrlhrUOMQwDbgZhWm21h5ppEY/8czJOmHr67qO4R6uTKIvsMhmTNxzSeW9pFFO5O4P9ibHYq56zVkK+9ZbVIeKrVxOqjSnt3454nflaPvk1McFVAJKhZvknIs2bGy3DviHOluufaKMWR0YKOeBOfpfko17b7AKlrDFVYxIjLKkAGy/TIMFGGo6aGgibdT4fQ9Vks0PuDc6AtOMgJ6buRogWtkb8kGh9VDQocioNu8URDFuPa0s8xpH26wjkirn8FhzAOpr9IGhLQPE80h+QhmDHTOH19mptIdjdKBHIyj7k56ZHQiHQ6/pU40Aduadtd1Y5EksO9rFzaGba+0PlJLsgSgziXy0p0W4QQfqyCnS1QLFd1g2abEfLDO6Qb3e6KcUGtDQrjNv/EGaLsLH5HJcfEzrRFV0l4Ups7grxEO5zxx+OnvXWElhhq461IGWAHVeDdlGNOZ5iwAfCZtYfJE9Jr4/4+Smf3lhGNRCH14pqbsjisBCElUhHCCo4u3VtAUSrNbDlZZOLI05p+ELbND75In9WBXVFrV54W5TW6ME4uGc1QpKY2DYW9q7nxSP1glgitw89gYVVNUfnr16iMLeml9AGOp0B6TEZEXW32Ly2SNQktPRK7YnqvvzGNiDTWiTVnk9PsZ+wXAh2BJyTUhgEX24Yq3N58id2d4l8naymrqFYVk0hbhfYu682ubTOgFEQ2u2Q4unHVDpY9T/pCWwJF2kUedVQH+6OV4iufCCLPopjQuTX6SvXTNRNBFawkp5DQl6jqEruW3wtXGU2OQi/vUb8rkCd83I5R6DAcB5vIqHgWw==",
-    "expiration": "2026-05-15T01:50:47.000Z"
+    "access_key_id": "ASIAZV3A2ECZF6KF5YXO",
+    "secret_access_key": "R71aNjqbzIB1TRfdzF37bDFSHEcYRK4KkvKJwYuW",
+    "session_token": "IQoJb3JpZ2luX2VjEJb//////////wEaCXVzLWVhc3QtMSJHMEUCIFc2D1SRA6AhhrlyI/8q041lqs36cgo8Pa8koDpeSNCUAiEAmjB3eg15uqk39ouWd/QxSndwwLhEFhf4cSys2NEmc/cq9gMIXxAEGgw2NjUzODYwOTg4NjYiDGhS2xOIl78uKyxGoSrTA0Spuon+bOJ6xcy/TPmGcOAvTp5ZRYy/lFaARe39LCPZAvYK49z3yDKGDk0PbvKC0HV8CcypHhiBDSuxoolsJwyUtCd+bgPvHnHFjl3pOIuGHjEhaxSpE5/TL1rq1F29phZt4MP/tqV1HjIEoujnSfHAu1S2h7tJFFL5TgLOMy7DSIvMDTSzkkDKa+JWVWlrCzbamuhm5LGr8nyVSj6SW2iGHvoT0pl+4XXiMzRcGG1kLYIM/0cKTlLJ+5LJ64snZ1mYAimN/O+olMAXFwiz9LHDoVYvFNj4MuhDx1ljyei3o5TBwNSDepY2H+CVuspaDvNYSWJCFWTvJLv8zx8CPHLR+5i2uVZblCWU3c0s5XG/Q2eMRDUMGZNoQwDdvsaslNw4kRX+xPWOSfss7n/ABqa7MUVwtx4Esb+3LtUfFuo3/ZzuV2KwGq2zAKw/XpjpFApXHxEb3213PW1sp8l8Ee3q/qYIGEoKRM5Zti7aKjtBOyTaRYjH2WKTJ4vPukiDOdgboVYrI0KuDjaxvc9GRexsjsRvF/MtE+EI31bSiuHKeqoq3/BuuxTPvK+D74oPL8WI+4PB3YUJxuLdSDktPUKf+8ZHv68RnuufVPjr/riZSiDdMLaql9AGOp0Binx8lg0NUwk3szT5dH5DKmaY35aWfLnzcy2w/uGeBbDEcZnTeXlqjXM78UjYEmjVNUvP9R2mPWKDN11d/1W5dl6DFkENsiTWlDPubSvLjRBB2Hr61LzEAd1Nu4iDZ4dhqIMGiJPvrJuAl0ykDKQI49IDhHvm1vv5st1T4S+yzL3DlLHJetu/V6BT9Q9hEFLSJgznbIRJTbXPOg8J5w==",
+    "expiration": "2026-05-15T01:59:18.000Z"
   },
   "name": "voice-ai-agent",
   "path": "/home/ubuntu/voice-ai-agent",
@@ -34,6 +35,7 @@
     "EXPO_PUBLIC_OWNER_OPEN_ID": "PRR5cfV2fBVdfVcTHbUWst",
     "JWT_SECRET": "EDWe7yJBubRHnqM5atWwQH",
     "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OPENAI_API_KEY": "100",
     "OWNER_NAME": "Bharatha Simha Reddy Boilla",
     "OWNER_OPEN_ID": "PRR5cfV2fBVdfVcTHbUWst",
     "REACT_NATIVE_PACKAGER_HOSTNAME": "8081-ijxd79striw0exipqz306-40064a65.sg1.manus.computer",

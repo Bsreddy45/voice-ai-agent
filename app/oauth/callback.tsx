@@ -60,9 +60,9 @@ export default function OAuthCallback() {
           }
 
           setStatus("success");
-          console.log("[OAuth] Web authentication successful, redirecting to home...");
+          console.log("[OAuth] Web authentication successful, redirecting to agent setup...");
           setTimeout(() => {
-            router.replace("/(tabs)");
+            router.replace("/agent-setup");
           }, 1000);
           return;
         }
@@ -157,9 +157,9 @@ export default function OAuthCallback() {
           // User info is already in the OAuth callback response
           // No need to fetch from API
           setStatus("success");
-          console.log("[OAuth] Redirecting to home...");
+          console.log("[OAuth] Redirecting to agent setup...");
           setTimeout(() => {
-            router.replace("/(tabs)");
+            router.replace("/agent-setup");
           }, 1000);
           return;
         }
@@ -210,12 +210,12 @@ export default function OAuthCallback() {
           }
 
           setStatus("success");
-          console.log("[OAuth] Authentication successful, redirecting to home...");
+          console.log("[OAuth] Authentication successful, redirecting to agent setup...");
 
-          // Redirect to home after a short delay
+          // Redirect to agent setup after a short delay
           setTimeout(() => {
             console.log("[OAuth] Executing redirect...");
-            router.replace("/(tabs)");
+            router.replace("/agent-setup");
           }, 1000);
         } else {
           console.error("[OAuth] No session token in result:", result);
