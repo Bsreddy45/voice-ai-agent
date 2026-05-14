@@ -1,0 +1,51 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://w5tfn2ihakixzVH.root:6VBSlnv2uT8mHEVa404A@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/7kU4FNSFfnFq4WNxfPofUA?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663660256539/7kU4FNSFfnFq4WNxfPofUA",
+    "access_key_id": "ASIAZV3A2ECZNCXKZYU6",
+    "secret_access_key": "6nLCiXVZIbmZybW9oIT1N/GDyuzzbCZIH20JXNxC",
+    "session_token": "IQoJb3JpZ2luX2VjEJb//////////wEaCXVzLWVhc3QtMSJHMEUCIC5GWy6EDx8+Ol/ElrnWWT5cDFSkqXBPXQ8exzqmrvFpAiEAwk3INo6EiU8y6gY9/o7HDAfL0WRWOnqs8uJJASgoCCsq9gMIXxAEGgw2NjUzODYwOTg4NjYiDLAElJvzG9xUnVBBDSrTA+hkNa3OFxYzEYcoBc1Wi50l8gjA2vrlhrUOMQwDbgZhWm21h5ppEY/8czJOmHr67qO4R6uTKIvsMhmTNxzSeW9pFFO5O4P9ibHYq56zVkK+9ZbVIeKrVxOqjSnt3454nflaPvk1McFVAJKhZvknIs2bGy3DviHOluufaKMWR0YKOeBOfpfko17b7AKlrDFVYxIjLKkAGy/TIMFGGo6aGgibdT4fQ9Vks0PuDc6AtOMgJ6buRogWtkb8kGh9VDQocioNu8URDFuPa0s8xpH26wjkirn8FhzAOpr9IGhLQPE80h+QhmDHTOH19mptIdjdKBHIyj7k56ZHQiHQ6/pU40Aduadtd1Y5EksO9rFzaGba+0PlJLsgSgziXy0p0W4QQfqyCnS1QLFd1g2abEfLDO6Qb3e6KcUGtDQrjNv/EGaLsLH5HJcfEzrRFV0l4Ups7grxEO5zxx+OnvXWElhhq461IGWAHVeDdlGNOZ5iwAfCZtYfJE9Jr4/4+Smf3lhGNRCH14pqbsjisBCElUhHCCo4u3VtAUSrNbDlZZOLI05p+ELbND75In9WBXVFrV54W5TW6ME4uGc1QpKY2DYW9q7nxSP1glgitw89gYVVNUfnr16iMLeml9AGOp0B6TEZEXW32Ly2SNQktPRK7YnqvvzGNiDTWiTVnk9PsZ+wXAh2BJyTUhgEX24Yq3N58id2d4l8naymrqFYVk0hbhfYu682ubTOgFEQ2u2Q4unHVDpY9T/pCWwJF2kUedVQH+6OV4iufCCLPopjQuTX6SvXTNRNBFawkp5DQl6jqEruW3wtXGU2OQi/vUb8rkCd83I5R6DAcB5vIqHgWw==",
+    "expiration": "2026-05-15T01:50:47.000Z"
+  },
+  "name": "voice-ai-agent",
+  "path": "/home/ubuntu/voice-ai-agent",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "Ss6FKGQ8Vh4cnoYyn6stz5",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "EXPO_APP_QR_URL": "exps://8081-ijxd79striw0exipqz306-40064a65.sg1.manus.computer",
+    "EXPO_PACKAGER_PROXY_URL": "https://8081-ijxd79striw0exipqz306-40064a65.sg1.manus.computer",
+    "EXPO_PUBLIC_API_BASE_URL": "https://3000-ijxd79striw0exipqz306-40064a65.sg1.manus.computer",
+    "EXPO_PUBLIC_OAUTH_PORTAL_URL": "https://manus.im",
+    "EXPO_PUBLIC_OAUTH_SERVER_URL": "https://api.manus.im",
+    "EXPO_PUBLIC_OWNER_NAME": "Bharatha Simha Reddy Boilla",
+    "EXPO_PUBLIC_OWNER_OPEN_ID": "PRR5cfV2fBVdfVcTHbUWst",
+    "JWT_SECRET": "EDWe7yJBubRHnqM5atWwQH",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Bharatha Simha Reddy Boilla",
+    "OWNER_OPEN_ID": "PRR5cfV2fBVdfVcTHbUWst",
+    "REACT_NATIVE_PACKAGER_HOSTNAME": "8081-ijxd79striw0exipqz306-40064a65.sg1.manus.computer",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "b2dab85a-eb16-40bc-8119-f3f781dd6f36",
+    "VITE_APP_ID": "7kU4FNSFfnFq4WNxfPofUA",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Voice AI Agent",
+    "VITE_FRONTEND_FORGE_API_KEY": "Vuhj5dZUizcQBKm5m9ZJ8r",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "app",
+  "test_command": "pnpm test"
+}
