@@ -20,10 +20,10 @@ export const voiceRouter = router({
         const result = await VoiceTranscription.transcribeAudio(input.audioUri);
 
         return {
-          transcript: result.transcript || "",
-          confidence: result.confidence || 0.5,
-          speaker: result.speaker || "Unknown",
-          duration: result.duration || 0,
+          transcript: result.text || "",
+          confidence: 0.8,
+          speaker: "Speaker",
+          duration: 0,
         };
       } catch (error) {
         console.error("[VoiceRouter] Transcription failed:", error);
